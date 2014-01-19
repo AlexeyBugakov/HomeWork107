@@ -21,6 +21,9 @@
 		48D249B51889CC3D00691BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D249971889CC3D00691BAD /* UIKit.framework */; };
 		48D249BD1889CC3D00691BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48D249BB1889CC3D00691BAD /* InfoPlist.strings */; };
 		48D249BF1889CC3D00691BAD /* HomeWork107Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D249BE1889CC3D00691BAD /* HomeWork107Tests.m */; };
+		48D249CB1889CDD000691BAD /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D249CA1889CDD000691BAD /* Route.m */; };
+		48D249CE1889CF8600691BAD /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D249CD1889CF8600691BAD /* Vehicle.m */; };
+		48D249D11889CFB100691BAD /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D249D01889CFB100691BAD /* Bus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		48D249BA1889CC3D00691BAD /* HomeWork107Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork107Tests-Info.plist"; sourceTree = "<group>"; };
 		48D249BC1889CC3D00691BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48D249BE1889CC3D00691BAD /* HomeWork107Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork107Tests.m; sourceTree = "<group>"; };
+		48D249C91889CDD000691BAD /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		48D249CA1889CDD000691BAD /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		48D249CC1889CF8600691BAD /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		48D249CD1889CF8600691BAD /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		48D249CF1889CFB100691BAD /* Bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bus.h; sourceTree = "<group>"; };
+		48D249D01889CFB100691BAD /* Bus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,7 @@
 		48D249991889CC3D00691BAD /* HomeWork107 */ = {
 			isa = PBXGroup;
 			children = (
+				48D249C81889CC8E00691BAD /* Model */,
 				48D249A21889CC3D00691BAD /* AppDelegate.h */,
 				48D249A31889CC3D00691BAD /* AppDelegate.m */,
 				48D249A51889CC3D00691BAD /* Main.storyboard */,
@@ -150,6 +160,19 @@
 				48D249BB1889CC3D00691BAD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48D249C81889CC8E00691BAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48D249C91889CDD000691BAD /* Route.h */,
+				48D249CC1889CF8600691BAD /* Vehicle.h */,
+				48D249CF1889CFB100691BAD /* Bus.h */,
+				48D249D01889CFB100691BAD /* Bus.m */,
+				48D249CD1889CF8600691BAD /* Vehicle.m */,
+				48D249CA1889CDD000691BAD /* Route.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D249D11889CFB100691BAD /* Bus.m in Sources */,
 				48D249AA1889CC3D00691BAD /* ViewController.m in Sources */,
+				48D249CB1889CDD000691BAD /* Route.m in Sources */,
 				48D249A41889CC3D00691BAD /* AppDelegate.m in Sources */,
 				48D249A01889CC3D00691BAD /* main.m in Sources */,
+				48D249CE1889CF8600691BAD /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +486,7 @@
 				48D249C41889CC3D00691BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48D249C51889CC3D00691BAD /* Build configuration list for PBXNativeTarget "HomeWork107Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +495,7 @@
 				48D249C71889CC3D00691BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
