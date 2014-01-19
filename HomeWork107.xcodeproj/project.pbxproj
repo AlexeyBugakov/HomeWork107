@@ -11,7 +11,8 @@
 		486C2555188C788B00936F86 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C2551188C788B00936F86 /* Route.m */; };
 		486C2556188C788B00936F86 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C2553188C788B00936F86 /* Vehicle.m */; };
 		486C256D188C7F3C00936F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C256A188C7F3C00936F86 /* AppDelegate.m */; };
-		486C256E188C7F3C00936F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C256C188C7F3C00936F86 /* ViewController.m */; };
+		486C256E188C7F3C00936F86 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C256C188C7F3C00936F86 /* LoginViewController.m */; };
+		486C2577188C8A0200936F86 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C2576188C8A0200936F86 /* User.m */; };
 		48D249941889CC3D00691BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D249931889CC3D00691BAD /* Foundation.framework */; };
 		48D249961889CC3D00691BAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D249951889CC3D00691BAD /* CoreGraphics.framework */; };
 		48D249981889CC3D00691BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D249971889CC3D00691BAD /* UIKit.framework */; };
@@ -45,8 +46,10 @@
 		486C2553188C788B00936F86 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 		486C2569188C7F3C00936F86 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		486C256A188C7F3C00936F86 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		486C256B188C7F3C00936F86 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		486C256C188C7F3C00936F86 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		486C256B188C7F3C00936F86 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		486C256C188C7F3C00936F86 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		486C2575188C8A0200936F86 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		486C2576188C8A0200936F86 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		48D249901889CC3D00691BAD /* HomeWork107.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork107.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D249931889CC3D00691BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48D249951889CC3D00691BAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -97,6 +100,8 @@
 				486C2551188C788B00936F86 /* Route.m */,
 				486C2552188C788B00936F86 /* Vehicle.h */,
 				486C2553188C788B00936F86 /* Vehicle.m */,
+				486C2575188C8A0200936F86 /* User.h */,
+				486C2576188C8A0200936F86 /* User.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,8 +121,8 @@
 			children = (
 				486C2569188C7F3C00936F86 /* AppDelegate.h */,
 				486C256A188C7F3C00936F86 /* AppDelegate.m */,
-				486C256B188C7F3C00936F86 /* ViewController.h */,
-				486C256C188C7F3C00936F86 /* ViewController.m */,
+				486C256B188C7F3C00936F86 /* LoginViewController.h */,
+				486C256C188C7F3C00936F86 /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,7 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486C256E188C7F3C00936F86 /* ViewController.m in Sources */,
+				486C256E188C7F3C00936F86 /* LoginViewController.m in Sources */,
+				486C2577188C8A0200936F86 /* User.m in Sources */,
 				486C2555188C788B00936F86 /* Route.m in Sources */,
 				486C256D188C7F3C00936F86 /* AppDelegate.m in Sources */,
 				486C2556188C788B00936F86 /* Vehicle.m in Sources */,
