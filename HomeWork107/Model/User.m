@@ -20,7 +20,7 @@
 }
 
 -(void)login {
-    NSLog(@"Try to login user %@, %@", _username, _password);
+    NSLog(@"Try to login user %@, %@", self.username, self.password);
 }
 
 @end

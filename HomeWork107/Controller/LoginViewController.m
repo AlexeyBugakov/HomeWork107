@@ -30,7 +30,7 @@
 }
 
 - (IBAction)actionLogin:(UIButton *)sender {
-    User *user = [User userWithName:_txtLogin.text andPassword:_txtPassword.text];
+    User *user = [User userWithName:self.txtLogin.text andPassword:self.txtPassword.text];
     
     [user login];
 }
