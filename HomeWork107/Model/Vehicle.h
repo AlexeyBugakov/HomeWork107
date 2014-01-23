@@ -10,6 +10,6 @@
 
 @interface Vehicle : NSObject
 
-@property NSString *Identifier;
+@property NSString* Identifier;
 
 @end

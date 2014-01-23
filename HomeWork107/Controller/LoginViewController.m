@@ -35,4 +35,12 @@
     [user login];
 }
 
+- (IBAction)actionRegistration:(UIButton *)sender {
+    NSLog(@"Registration begin");
+}
+
+- (IBAction)actionRestorePassword:(UIButton *)sender {
+    NSLog(@"Restore password begin");
+}
+
 @end

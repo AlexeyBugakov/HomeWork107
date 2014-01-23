@@ -10,6 +10,6 @@
 
 @interface Route : NSObject
 
-@property NSString *Name;
+@property NSString* Name;
 
 @end

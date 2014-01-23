@@ -10,6 +10,8 @@
 
 @implementation User
 
+@synthesize username = _username;
+
 +(User *)userWithName:(NSString *)name andPassword:(NSString *)password {
     User *user = [[User alloc] init];
     
@@ -20,7 +22,18 @@
 }
 
 -(void)login {
-    NSLog(@"Try to login user %@, %@", self.username, self.password);
+    NSLog(@"Try to login the user %@, %@", self.username, self.password);
+}
+
+-(void)setUsername:(NSString *)username {
+    _username = username;
+}
+
+-(NSString *)username {
+    if (_username.length == 0) {
+        _username = @"DefaulUser";
+    }
+    return _username;
 }
 
 @end
